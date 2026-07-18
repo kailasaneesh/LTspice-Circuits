@@ -8,5 +8,6 @@ This repository contains a collection of basic circuits simulated using LTspice 
 - RC Circuit
 - CMOS Inverter
 - MOSFET as a Switch
+- Half Adder
 
 Each circuit includes the LTspice schematic (`.asc`), circuit image (`.png`), and a README with a brief explanation.
