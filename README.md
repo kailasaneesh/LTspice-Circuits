@@ -6,9 +6,11 @@ This repository contains a collection of basic circuits simulated using LTspice 
 
 - Voltage Divider
 - RC Circuit
-- CMOS Inverter
 - MOSFET as a Switch
+- CMOS Inverter
+- CMOS NAND Gate
+- CMOS NOR Gate
 - Half Adder
-- CMOS NAND
+- Full Adder
 
 Each circuit includes the LTspice schematic (`.asc`), circuit image (`.png`), and a README with a brief explanation.
