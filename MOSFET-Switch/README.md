@@ -2,27 +2,21 @@
 
 ## Overview
 
-This repository contains the LTspice simulation of an NMOS transistor operating as an electronic switch. The simulation demonstrates the MOSFET in the ON state when a constant gate voltage is applied.
+This repository contains the LTspice simulation of a MOSFET used as an electronic switch. A pulse input is applied to the gate to demonstrate the ON and OFF switching operation of the MOSFET.
 
 ## Circuit Details
 
-- Supply Voltage: 10 V
-- Gate Voltage: 10 V
-- Load Resistor: 1 kΩ
-- Gate Resistor: 5 kΩ
-- NMOS Transistor: IRFH5015
-
-## Simulation
-
-Transient Analysis (`.tran 10ms`)
+- Supply Voltage: 12 V
+- Gate Pulse: 0 V to 5 V
+- Gate Resistor (R1): 100 Ω
+- Pull-up Resistor (R2): 4.7 kΩ
+- MOSFET: Si7336ADP
 
 ## Simulation Results
 
-| Parameter | Value |
-|-----------|------:|
-| Supply Voltage | 10 V |
-| Gate Voltage | 10 V |
-| MOSFET State | ON |
-| Analysis | Transient (`.tran 10ms`) |
+| Input Voltage | MOSFET State | Output Voltage |
+|---------------|-------------:|---------------:|
+| 0 V | OFF | 12 V |
+| 5 V | ON | 0 V |
 
-The simulation demonstrates the NMOS transistor operating in the ON state, allowing current to flow through the load resistor.
+The simulation verifies the switching behavior of the MOSFET.
